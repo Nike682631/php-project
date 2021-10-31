@@ -1,0 +1,84 @@
+.card {
+  background: $backgroundGray;
+  border-color: #E9EAEA;
+  .card-header {
+    background: none;
+    border-color: #E9EAEA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .card-body {
+    padding-bottom: 30px;
+  }
+
+  .card-subheading {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .representative {
+    &__name {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #9F9F9F;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    &__phone, &__email, &__linkedin-url {
+      display: block;      
+      font-size: 14px;
+      a {
+        color: $primary;
+        text-decoration: none;
+      }
+    }
+
+    &__phone, &__linkedin-url {
+      margin-bottom: 5px;
+    }
+
+    &__email {
+      text-decoration: underline;
+    }
+  }
+
+  .card-row {
+    margin-bottom: 15px;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    &__tagline {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #9F9F9F;
+      margin-bottom: 0px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    &__img-certificate {
+      border-radius: 3px;
+      width: 49px;
+      height: 49px;
+    }
+
+    &__value {
+      font-size: 14px;
+      color: $primary;
+    }
+
+    &__add-certificate {
+      width: 49px;
+      height: 49px;
+      border-radius: 3px;
+      border: 1px solid #e9eaea;
+    }
+
+    a {
+      cursor: pointer;
+    }
+  }
+}

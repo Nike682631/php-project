@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8"><g><g transform="rotate(-90 3 4.5)"><path fill="none" stroke="#747474" stroke-linecap="round" stroke-miterlimit="20" d="M-.446 2.82v0l3.244 3.174v0L6.042 2.82v0"/></g></g></svg>

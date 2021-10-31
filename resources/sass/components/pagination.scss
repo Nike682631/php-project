@@ -1,0 +1,13 @@
+.pagination {
+    flex-wrap: wrap;
+}
+
+.page-link {
+    color: $gold !important;
+}
+
+.page-item.active .page-link {
+    color: #fff !important;
+    background-color: $gold !important;
+    border-color: $gold !important;
+}

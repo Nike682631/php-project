@@ -1,0 +1,15 @@
+.app-notification {
+    font-family: $gelion;
+    font-size: $text-small;
+    background-color: #00a9a2;
+
+    a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    &__subscribe {
+        background-color: $gold;
+        border-radius: 10px;
+    }
+}

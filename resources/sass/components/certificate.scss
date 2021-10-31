@@ -1,0 +1,71 @@
+.certificate-modal {
+    &__title {
+        font-size: 20px;
+        font-family: $gelion;
+        color: $textColor;
+    }
+
+    &__label {
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #9f9f9f;
+    }
+
+    &__text {
+        font-size: 14px;
+    }
+}
+
+.customized-dropzone {
+    color: #919191;
+    font-size: 14px;
+    border: 1px dashed #e6e6e6 !important;
+    border-radius: 3px !important;
+    background-color: #f9f9f9 !important;
+}
+
+.div-cert {
+    .div-delete-cert {
+        width: 18px;
+        height: 18px;
+        border-radius: 9px;
+        background-color: black;
+        display: none;
+    }
+    
+    .btn-delete-cert {
+        position: absolute;
+        margin-top: -6px;
+        margin-left: 36px;
+    }
+
+    &:hover {
+        .div-delete-cert {
+            display: flex;
+        }
+    }
+}
+
+#allCompanyCerts {
+    display: none;
+    flex-wrap: wrap;
+    &.show {
+        display: flex;
+    }
+}
+
+.btn-load-more {
+    font-size: $text-small;
+    font-family: $openSans;
+    color: $primary;
+    text-decoration: none;
+    display: none;
+    &.show {
+        display: block;
+    }
+}
+
+#btn-expander {
+    text-decoration: none;
+}

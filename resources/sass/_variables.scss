@@ -1,0 +1,212 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+$openSans: "Open Sans", sans-serif;
+$grotesque: "Darker Grotesque", sans-serif; // Colors
+$gelion: "Gelion-Regular";
+$darkGreen: #032c2a;
+$primary: #053937;
+$textColor: #363636;
+$textGray: #8B8B8B;
+$labelGray: #9f9f9f;
+$infoColor: #747474;
+
+$lightGray: #919191;
+$textGray: #8b8b8b;
+$textGray2: #747474;
+$backgroundGray: #f9f9f9;
+$sidebarBackground: #f8f9f9;
+$gold: #cfa16d;
+$white: #ffffff;
+$gray: #212529;
+$text: 16px;
+$text1: 15px;
+$text2: 14px;
+$text-small: 13px;
+$iconColor: #d8dadf;
+$myMessageColor: #97afc4;
+$otherMessageColor: #5da9eb;
+$btnSecondaryColor: #e8e8e8;
+$companyInfoColor: #f8f9f9;
+$semiBold: 600;
+$text-header: 21px;
+$opacity: 0.66;
+$tableBorder: #eeeeee;
+$btn-google: #4181ed;
+$btn-linkedIn:#0077b5;
+
+$transition-default: 150ms ease-in-out;
+$color-gray-lite: #ebebeb;
+$radius-default: 2px;
+$border-color: #e1e1e1;
+$border-color2: #eaeaea;
+
+/* screen size */
+
+$xl: 1199px;
+$lg: 991px;
+$md: 767px;
+$sm: 576px;
+
+body {
+    font-family: $openSans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $grotesque;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 73px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    &:hover {
+        color: $primary;
+    }
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.text-brand {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.text-gold {
+    color: $gold !important;
+}
+
+.badge-danger {
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    right: -20px;
+    top: -8px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    line-height: 2;
+    text-align: center;
+    @media (max-width: 768px) {
+        position: relative;
+        right: 0;
+        line-height: 1.4;
+    }
+}
+
+.btn {
+    border-radius: 3px;
+    border: none;
+    font-size: $text2;
+    padding: 14px 25px;
+    position: relative;
+
+    &:hover {
+        color: $gold;
+    }
+
+    &.btn-primary {
+        background: $gold;
+        color: $white;
+
+        &:hover {
+            background: white;
+            color: $gold;
+        }
+    }
+
+    &.btn-secondary {
+        background: #e8e8e8;
+        color: #4b4b4b;
+    }
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+// General classes
+.background-primary {
+    background: $primary;
+}
+
+.background-secondary {
+    background: $darkGreen;
+}
+
+.flex-grow {
+    flex: 1 0 auto;
+}
+
+.text-small {
+    font-size: $text-small;
+    color: $textGray;
+}
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1260px;
+    }
+}
+
+.btn-icon-arrow {
+    position: absolute;
+    right: 20px;
+}
+
+.custom-control-label {
+    &::before {
+        top: 3px;
+        width: 12px;
+        height: 12px;
+    }
+
+    &::after {
+        top: 3px;
+        width: 12px;
+        height: 12px;
+        background: $primary;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 3px;
+    }
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,19 @@
+.content1 {
+    .col-1 {
+        padding-top: 0.5rem;
+        @media only screen and (max-width: 768px) {
+            padding: 0.5rem 0 0 0;
+        }
+    }
+    .col-11 {
+        h3 {
+            font-size: 21px;
+            color: $textColor;
+        }
+        p {
+            font-size: 14px;
+            color: $textGray2;
+        }
+    }
+    margin-bottom: 2rem;
+}

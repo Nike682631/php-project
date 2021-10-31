@@ -1,0 +1,101 @@
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 23px solid white;
+    border-bottom: 12px solid transparent;
+    @media(max-width: 768px) {
+        border-top: 7px solid transparent;
+        border-left: 14px solid white;
+        border-bottom: 7px solid transparent;
+    }
+}
+
+.btn-video-player {
+    cursor: pointer;
+    position: absolute;
+}
+
+.player-btn-background {
+    width: 93px;
+    height: 56px;
+    border-radius: 9px;
+    background-color: #000000;
+    opacity: 0.63;
+    @media(max-width: 768px) {
+        width: 52px;
+        height: 31px;
+    }
+
+    &:hover {
+        background-color: red;
+    }
+}
+
+.container-how-it-works {
+    padding-top: 205px;
+    padding-bottom: 107px;
+    background-color: $backgroundGray;
+    @media(max-width: 768px) {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    &__description {
+        max-width: 572px;
+        margin-right: 60px;
+        @media(max-width: 768px) {
+            margin-right: 0px;
+            padding: 0 42px;
+        }
+
+        .section-header {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__video {
+        max-width: 550px;
+        @media(max-width: 768px) {
+            padding: 15px;
+        }
+    }
+
+    .section-title {
+        font-size: 50px;
+        font-family: $gelion;
+        color: $textColor;
+        line-height: 39px;
+        @media(max-width: 768px) {
+            font-size: 28px;
+        }
+
+        &__sub {
+            font-family: $gelion;
+            font-size: $text2;
+            font-weight: 600;
+            color: $gold;
+            letter-spacing: 4.3px;
+            @media(max-width: 768px) {
+                font-size: 12px;
+                letter-spacing: 3.68px;
+            }
+        }
+    }
+
+    .section-description {
+        color: $textGray;
+        font-family: $openSans;
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+#videoModal {
+    .modal-dialog {
+        min-width: 720px;
+        @media(max-width: 768px) {
+            min-width: calc(100% - 1rem);
+        }
+    }
+}

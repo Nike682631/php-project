@@ -1,0 +1,12 @@
+.company-actions {
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: $companyInfoColor;
+    padding: 30px 29px 11px 27px;
+    .btn.btn-secondary {
+        border-radius: 4px;
+        background-color: $btnSecondaryColor;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}

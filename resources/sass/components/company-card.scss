@@ -1,0 +1,104 @@
+.company-card {
+    background-color: $white !important;
+    border-radius: 3px;
+    padding: 0 !important;
+    border: 1px solid #eeeeee;
+
+    a {
+        color: $textColor;
+        cursor: pointer;
+    }
+
+    &__header {
+        border-bottom: 1px solid #eeeeee;
+
+        .detail {
+            padding: 18px 25px;
+            border-right: 1px solid #eeeeee;
+        }
+
+        .title {
+            font-size: 20px;
+            font-family: $gelion;
+            color: $textColor;
+        }
+
+        .like {
+            padding: 18px 25px;
+        }
+    }
+
+    &__body {
+
+        border-bottom: 1px solid #eeeeee;
+
+        .side {
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            &:first-child {
+                border-right: 1px solid #eeeeee;
+            }            
+        }
+
+        .sub-title {
+            font-size: 15px;
+            font-weight: $semiBold;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        @media(max-width: 768px) {
+            flex-wrap: wrap;
+        }
+    }
+
+    &__footer {
+        padding: 20px;
+
+        .btn-detail-group {
+            @media(max-width: 768px) {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    &__img {
+        width: 170px;
+        min-width: 170px;
+        height: 170px;
+        border-radius: 3px;
+    }
+
+    &__img-container {
+        padding: 20px 0 20px 20px;
+    }
+
+    &__label {
+        color: $labelGray;
+        font-size: 11px;
+        font-weight: $semiBold;
+        text-transform: uppercase;
+        max-width: 150px;
+        overflow: hidden;
+    }
+
+    &__info {
+        color: $primary !important;
+        font-size: 14px;
+        text-transform: initial !important;
+
+        span {
+            max-width: 50px;
+        }
+    }
+
+    &__text {
+        background-color: #f1f4f4;
+        color: $labelGray;
+        font-size: 13px;
+        padding: 4px;
+        margin: 4px 3px;
+        border-radius: 5px;
+    }
+}

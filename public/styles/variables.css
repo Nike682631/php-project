@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 73px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  color: #053937;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.text-brand {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.text-gold {
+  color: #CFA16D !important;
+}
+
+.badge-danger {
+  background: red;
+  border-radius: 100%;
+  position: absolute;
+  right: -20px;
+  top: -8px;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  line-height: 2;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+  padding: 14px 25px;
+  position: relative;
+}
+.btn:hover {
+  color: #CFA16D;
+}
+.btn.btn-primary {
+  background: #CFA16D;
+  color: #ffffff;
+}
+.btn.btn-primary:hover {
+  background: white;
+  color: #CFA16D;
+}
+.btn.btn-secondary {
+  background: #E8E8E8;
+  color: #4B4B4B;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.background-primary {
+  background: #053937;
+}
+
+.background-secondary {
+  background: #032C2A;
+}
+
+.flex-grow {
+  flex: 1 0 auto;
+}
+
+.text-small {
+  font-size: 13px;
+  color: #8B8B8B;
+}
+
+@media (min-width: 1200px) {
+  .container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 1220px;
+  }
+}
+.btn-icon-arrow {
+  position: absolute;
+  right: 20px;
+}
+
+.custom-control-label::before {
+  top: 3px;
+  width: 12px;
+  height: 12px;
+}
+.custom-control-label::after {
+  top: 3px;
+  width: 12px;
+  height: 12px;
+  background: #053937;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 3px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}

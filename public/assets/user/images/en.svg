@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>eng</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60" rx="30"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-light-v2" transform="translate(-1264.000000, -10.000000)">
+            <g id="Header">
+                <g id="Langs" transform="translate(1264.000000, 10.000000)">
+                    <g id="eng">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Rectangle-Copy-2" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <path d="M24,24 L24,0 L36,0 L36,24 L60,24 L60,36 L36,36 L36,60 L24,60 L24,36 L0,36 L0,24 L24,24 Z M21,21 L16.5,21 L0,7.5 L0,0 L21,16.5 L21,21 Z M39,21 L39,16.5 L60,0 L60,7.5 L43.5,21 L39,21 Z M21,39 L21,43.5 L0,60 L0,52.5 L16.5,39 L21,39 Z M39,39 L43.5,39 L60,52.5 L60,60 L39,43.5 L39,39 Z" id="Combined-Shape" fill="#FC0204" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M21,12 L6,-1.687539e-14 L21,-1.687539e-14 L21,12 Z M12,21 L-3.75255382e-14,21 L-3.75255382e-14,10.5 L12,21 Z M39,12 L39,-1.687539e-14 L54,-1.687539e-14 L39,12 Z M48,21 L60,10.5 L60,21 L48,21 Z M21,48 L21,60 L6,60 L21,48 Z M12,39 L-3.75255382e-14,49.5 L-3.75255382e-14,39 L12,39 Z M39,48 L54,60 L39,60 L39,48 Z M48,39 L60,39 L60,49.5 L48,39 Z" id="Combined-Shape" fill="#04029C" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

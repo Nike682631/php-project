@@ -1,0 +1,33 @@
+.sidebar {
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+    background-color: $sidebarBackground;
+    .section {
+        border-bottom: 1px solid rgba(112, 112, 112, 0.09);
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        .title {
+            font-size: 1.25rem;
+            color: $textColor;
+            line-height: 24px;
+            margin-bottom: 15px;
+        }
+        a {
+            font-size: 14px;
+            line-height: 27px;
+            color: $textGray2;
+        }
+        .contact-icons {
+            display: flex;
+            flex-direction: row;
+            a {
+                img {
+                    width: 27px;
+                    height: 27px;
+                }
+                margin-right: 10px;
+            }
+        }
+    }
+}

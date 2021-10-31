@@ -1,0 +1,172 @@
+section {
+
+    &.register {
+        padding: 0 !important;
+        
+        .left-side-container {
+            padding: 170px 110px;
+
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                z-index: -1;
+                background-image: linear-gradient(65deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 100%), url('/assets/images/hero-bg.jpg');
+                background-size: cover;
+                width: calc(100vw * 0.45);
+                height: 100%;
+                left: calc(50% - 29vw);
+                top: 0;
+
+                @media (min-width:1620px) and (max-width:2380px){
+                    left: calc(50% - 35vw);
+                }
+
+                @media (min-width:2380px){
+                    left: calc(50% - 38vw);
+                }
+
+                @media (max-width: 767px) {
+                    width: 100vw;
+                    left: calc(50% - 50vw);
+                }
+            }
+
+            @media (max-width: 992px) {
+                padding: 150px 20px;
+            }
+
+            @media (max-width: 768px) {
+                padding: 80px 50px !important;
+            }
+
+            .register-left-heading {
+                font-size: 30px;
+                font-family: $gelion;
+            }
+            
+            .register-left-description {
+                font-size: $text2;
+                font-family: $openSans;
+            }
+        
+            .separator {
+                opacity: 0.15;
+            }
+        
+            .step {
+                width: 250px;    
+            
+                &.selected {
+                    border: 2px solid $white;
+                    border-radius: 5px;
+                }
+            
+                .sub-title {
+                    font-size: $text-header;
+                    font-family: $gelion;
+                }
+            
+                .sub-text {
+                    font-size: $text2;
+                    font-family: $openSans;
+                    color: $gold;
+                }
+            
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+        
+        .right-side-container {
+            padding: 110px;
+            @media (max-width: 992px) {
+                padding: 80px;
+            }
+
+            @media (max-width: 768px) {
+                padding: 50px !important;
+            }
+        
+            .register-right-heading {
+                font-size: 30px;
+                font-family: $gelion;
+                line-height: 114px;
+                color: $textColor;
+        
+                &__sub {
+                    font-size: $text-header;
+                    font-family: $gelion;
+                }
+
+                @media (max-width: 768px) {
+                    line-height: normal;
+                    padding: 40px 0;
+                }
+            }
+        
+            .label-user-type {
+                font-size: $text2;
+                font-family: $openSans;
+                color: $lightGray;
+            }
+        
+            .label-title {
+                font-size: 11px !important;
+                color: #9f9f9f;
+                font-weight: 600;
+            }
+        
+            .form-control {        
+                font-size: $text2;
+        
+                &::placeholder {
+                    color: $lightGray;
+                }
+            }
+        
+            .register-agreement {
+                font-size: 14px;
+                color: $lightGray;
+        
+                a {
+                    color: $primary;
+                }
+            }
+        
+            .two-row {        
+                .form-group {
+                    width: 45% !important;
+                    @media (max-width: 768px) {
+                        width: 100% !important;
+                    }
+                }                
+            }
+        
+            .bank-details {
+                p {
+                    line-height: 28px;
+                    font-size: $text2;
+                    color: $lightGray;
+        
+                    &.left-desc {
+                        width: 28%;
+                    }
+            
+                    &.right-desc {
+                        flex: 1;
+                        font-weight: 700;
+                    }
+                }
+            }
+        
+        }
+    }
+
+}
+
+
+
+

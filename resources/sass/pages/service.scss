@@ -1,0 +1,29 @@
+.service-content {
+
+    &__sidebar {
+        background-color: $backgroundGray;
+        border-radius: 3px;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-family: $gelion;
+        color: $textColor;
+        padding: 27px 32px;
+        border-bottom: 1px #eaeaea solid;
+    }
+
+    &__country {
+        width: 190px;
+    }
+}
+
+.custom-text-info {
+    font-size: 14px;
+    color: $textGray2;
+}
+
+#no-companies {
+    font-size: 14px;
+    color: $infoColor;
+}

@@ -1,0 +1,35 @@
+.section-create-product {
+    padding: 50px 0;
+
+    .create-product {
+        &__left-side {
+            background-color: #f9f9f9;
+            border-radius: 3px;
+            border: 1px solid #eeeeee;
+        }
+
+        &__title {
+            font-size: 20px;
+            font-family: $gelion;
+            color: $textColor;
+            padding: 27px 0;
+            &.left {
+                padding: 27px 32px;
+                border-bottom: 1px #eaeaea solid;
+            }
+        }
+
+        &__label {
+            color: $labelGray;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 11px;
+        }
+
+    }
+}
+
+.btn-customized {
+    font-size: 14px !important;
+    text-transform: initial !important;
+}

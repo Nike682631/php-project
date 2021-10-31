@@ -1,0 +1,56 @@
+.content {
+    .container {
+        .row {
+            .col-sm-8 {
+                form {
+                    .row {
+                        .col-12 {
+                            .sub-title {
+                                font-size: 20px;
+                                color: $textColor;
+                            }
+                            .form-group {
+                                label {
+                                    font-size: 14px;
+                                    color: $textGray2;
+                                    display: inline-flex;
+                                    margin-right: 2rem;
+                                    &:focus {
+                                        color: $primary;
+                                    }
+                                    input {
+                                        margin-right: 0.4rem;
+                                        align-self: center;
+                                    }
+                                }
+                            }
+                        }
+                        .shinny-label {
+                            text-transform: uppercase;
+                            font-size: 11px;
+                            color: #9f9f9f;
+                        }
+                        span.text-danger {
+                            font-size: 11px;
+                        }
+                        input.btn {
+                            padding: 11px 40px;
+                            float: right;
+                        }
+                        span.select2 {
+                            .selection {
+                                .select2-selection {
+                                    padding: 11px 20px;
+                                    height: fit-content;
+                                    .select2-selection__arrow {
+                                        top: 25%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

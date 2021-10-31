@@ -1,0 +1,29 @@
+.company-favorites {
+    margin: 1.5rem 0;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: $companyInfoColor;
+    .title {
+        padding: 20px 29px 17px 29px;
+        border-bottom: 1px solid #bfbfbf;
+        h6 {
+            font-size: 15px;
+            font-weight: $semiBold;
+            text-transform: uppercase;
+        }
+    }
+    .content {
+        padding: 22px 28px 32px 28px;
+        .company {
+            font-size: 11px;
+            font-weight: $semiBold;
+            color: $labelGray;
+            text-transform: uppercase;
+        }
+        .favorites {
+            a {
+                color: $primary;
+            }
+        }
+    }
+}

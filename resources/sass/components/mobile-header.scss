@@ -1,0 +1,51 @@
+.mobile-header {
+    .hamburger-menu {
+        background-color: $primary;
+        display: flex;
+        justify-content: space-around;
+        img {
+            width: 55%;
+        }
+        .mburger {
+            width: 80px;
+            height: 80px;
+            color: white;
+            --mb-bar-height: 2px;
+        }
+    }
+}
+#mobile-menu {
+    .mm-navbar_sticky {
+        margin-bottom: 20px;
+    }
+
+    .mm-panel {
+        background-color: $primary;
+        color: white;
+        li {
+            border-color: rgba(255, 255, 255, 0.5);
+            svg {
+                min-width: 50px;
+            }
+        }
+        a {
+            background-color: $primary;
+            color: white;
+            &::after {
+                border-color: $white;
+            }
+            &::before {
+                border-color: $white;
+            }
+        }
+    }
+
+    .mm-listitem:after {
+        left: 0;
+    }
+
+    .mm-listitem__text {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

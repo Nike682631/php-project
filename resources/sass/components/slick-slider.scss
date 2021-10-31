@@ -1,0 +1,25 @@
+.slick-dots {
+    bottom: 10px !important;
+
+    li button:before {
+        color: $white !important;
+        opacity: 1 !important;
+    }
+
+    li.slick-active button:before {
+        color: $gold !important;
+        opacity: 1 !important;
+    }
+}
+
+.slick-list {
+    height: 100% !important;
+
+    .slick-track {
+        height: 100% !important;
+    }
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}

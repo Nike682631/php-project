@@ -1,0 +1,9 @@
+.b2b-company .cover {
+  position: relative;
+}
+.b2b-company .company-header-details {
+  position: absolute;
+  width: 100%;
+  background: url("/assets/images/gradient-overlay.png") no-repeat;
+  background-position: botto center;
+}

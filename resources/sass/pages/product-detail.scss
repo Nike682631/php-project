@@ -1,0 +1,96 @@
+.container-product-detail {
+
+    &__name {
+        font-size: 30px;
+        color: $textColor;
+        font-family: $gelion;
+    }
+
+    &__label {
+        color: $labelGray;
+        font-size: 11px;
+        font-weight: $semiBold;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        font-size: $text2;
+        color: $textGray2;
+    }
+
+    &__price {
+        font-size: 21px;
+        color: $primary;
+    }
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.container-related-product {
+    padding: 42px 0;
+
+    &__container-cards {
+        justify-content: space-between;
+        @media(max-width: 768px) {
+            justify-content: center;
+        }
+    }
+}
+
+.container-company-detail {
+    margin-top: -100px;
+    padding: 120px 30px 30px;
+    background-color: $companyInfoColor;
+    border: 1px solid #e9eaea;
+    border-radius: 3px;
+
+    &__label-title {
+        color: black;
+        font-size: 15px;
+        font-weight: $semiBold;
+        text-transform: uppercase;
+        border-bottom: 1px solid #e9eaea;
+        margin: 0 -30px;
+        padding: 0 30px;
+    }
+
+    &__text {
+        font-size: $text2;
+        color: $primary;
+    }
+}
+
+.product-images {
+    padding-top: 20px;
+    height: 86px;
+
+    img {
+        height: 66px;
+        margin-right: 20px;
+    }
+}
+
+.img-product-company-avatar {
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.btn-product-send-msg {
+    height: 50px;
+}
+
+.btn {
+    &.customized-1 {
+        text-transform: initial;
+        font-size: $text2 !important;
+    }
+}
+
+.btn-back-to-all-products {
+    color: white !important;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none !important;
+}

@@ -1,0 +1,41 @@
+.btn-edit-representative {
+    color: $gray;
+    text-decoration: none !important;
+}
+
+.representative-modal {
+    &__label {
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #9f9f9f;
+    }
+
+    &__label2 {
+        font-family: $gelion;
+        font-size: 18px;
+        color: $gray;
+    }
+}
+
+.representative-card {
+    border-top: 1px solid rgba(191, 191, 191, 0.26);
+}
+
+#createRepresentativeModal {
+    .modal-dialog {
+        min-width: 720px;
+        @media(max-width: 768px) {
+            min-width: calc(100% - 1rem);
+        }
+    }
+}
+
+.representative {
+
+    &__btn-group {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}

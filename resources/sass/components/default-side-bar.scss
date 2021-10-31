@@ -1,0 +1,58 @@
+.default-side-bar {
+    width: 100%;
+    border-radius: 3px;
+    background: url(/images/new_sidebar.png);
+    background-size: cover;
+
+    .back {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.75) 0%,
+            rgba(0, 0, 0, 0) 100%
+        );
+        .content {
+            background-image: linear-gradient(
+                0deg,
+                rgba(255, 255, 255, 0.5) 0%,
+                rgba(255, 255, 255, 0) 40%
+            );
+            padding: 0;
+            padding-left: 2.5rem;
+            padding-bottom: 2.5rem;
+            h3 {
+                font-size: 17px;
+                color: $white;
+                width: 60px;
+                height: 28px;
+                background-color: $primary;
+                border-bottom-left-radius: 1rem;
+                float: right;
+                color: $white;
+                text-align: center;
+                margin-bottom: 0;
+            }
+            h1.xl {
+                font-size: 75px;
+                color: $white;
+                font-family: "Gelion-Regular";
+                line-height: 1.05;
+            }
+            h4 {
+                font-size: 17px;
+                color: $white;
+                letter-spacing: 5.22px;
+                font-family: "Gelion-Regular";
+                text-transform: uppercase;
+                width: 50%;
+            }
+            div {
+                button {
+                    padding: 10px 30px;
+                }
+            }
+            img {
+                margin-top: 111px;
+            }
+        }
+    }
+}

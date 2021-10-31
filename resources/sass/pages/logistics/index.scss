@@ -1,0 +1,87 @@
+.content {
+    padding: 3rem 0;
+    .container {
+        .row {
+            .col-sm-8 {
+                .row {
+                    .logistics-types {
+                        width: 100%;
+                        text-align: right;
+                        .type {
+                            display: inline;
+                            border-right: 1px solid #747474;
+                            padding: 0 0.5rem;
+                            a {
+                                color: $textGray2;
+                                &:focus {
+                                    color: $primary;
+                                }
+                            }
+                            &:last-child {
+                                border-right: 0;
+                            }
+                        }
+                    }
+                }
+                table {
+                    margin-top: 1.2rem;
+                    border-radius: 3px;
+                    border: 1px solid $tableBorder;
+                    @media only screen and (max-width: 760px),
+                        (min-device-width: 768px) and (max-device-width: 1024px) {
+                        /* Force table to not be like tables anymore */
+                        table,
+                        thead,
+                        tbody,
+                        th,
+                        tr {
+                            display: block;
+                        }
+
+                        td {
+                            position: relative;
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 0.5rem 2rem;
+                        }
+                    }
+                    thead {
+                        th {
+                            text-transform: uppercase;
+                            font-size: 15px;
+                            font-weight: 600;
+                            a {
+                                text-transform: none;
+                                font-size: 14px;
+                            }
+                            border: 0;
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                padding: 2rem 0.75rem;
+                                vertical-align: middle;
+                                label {
+                                    font-size: 11px;
+                                    font-weight: 600;
+                                    color: #9f9f9f;
+                                    text-transform: uppercase;
+                                }
+                                p,
+                                .request_type {
+                                    font-size: $text2;
+                                    color: $primary;
+                                    margin-bottom: 0;
+                                }
+                                a.btn {
+                                    vertical-align: middle;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

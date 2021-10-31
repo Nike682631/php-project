@@ -1,0 +1,39 @@
+.company-card-small {
+    background: url("assets/images/demo-cover.png");
+    background-size: cover;
+    margin-top: 27px;
+    padding-top: 4rem;
+    border-radius: 3px;
+    border: 1px solid #dadada;
+    .grey-back {
+        background-color: $companyInfoColor;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2.25rem;
+        .company-avatar {
+            width: 88px;
+            height: 88px;
+            border-radius: 101px;
+            border: 1px solid #dadada;
+            margin-top: -44px;
+            margin-bottom: 22px;
+        }
+        .company-name {
+            font-family: $gelion;
+        }
+        .company-review {
+            .fa-star {
+                width: 11px;
+                height: 12px;
+                &.checked {
+                    color: orange;
+                }
+            }
+            margin-bottom: 1.5rem;
+        }
+        .btn-primary {
+            padding: 11px 83px;
+        }
+    }
+}

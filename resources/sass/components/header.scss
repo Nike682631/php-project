@@ -1,0 +1,150 @@
+.header {
+    .logo-wrapper {
+        @media (max-width: 768px) {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 15px;
+        }
+    }
+    .col-1 {
+        padding: 0;
+        .languages {
+            .dropdown {
+                .btn.btn-sm {
+                    color: $white;
+                    opacity: $opacity;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    &__first-row {
+        padding: 10px 0;
+        .secondary-nav {
+            @media (max-width: 768px) {
+                text-align: left !important;
+                padding-left: 0;
+            }
+            a {
+                position: relative;
+                color: white;
+                font-size: $text-small;
+                opacity: 0.66;
+                margin-left: 40px;
+                @media (max-width: 768px) {
+                    margin-left: 0px;
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+
+    &__second-row {
+        @media (max-width: 768px) {
+            padding-bottom: 20px;
+        }
+        .container {
+            .row {
+            }
+        }
+    }
+
+    .login-button-wrapper {
+        padding: 20px 0;
+        border-left: $darkGreen 1px solid;
+    }
+
+    .additional-nav {
+        a {
+            position: relative;
+            white-space: nowrap;
+        }
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        .nav-item.dropdown {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: 3.75rem;
+            .nav-link {
+                color: white;
+                font-size: 15px;
+                cursor: pointer;
+                svg {
+                    margin-right: 1rem;
+                }
+            }
+            .dropdown-menu {
+                background-color: $primary;
+                margin-top: 15px;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+                padding: 0;
+                border-radius: 0;
+                &:last-child {
+                    border: 0;
+                    .dropdown-item.view-all {
+                        justify-content: center;
+                        flex-direction: row;
+                        opacity: 0.66;
+                    }
+                }
+                li {
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.06);
+                        .submenu {
+                            display: block;
+                        }
+                    }
+                    position: relative;
+                    width: 17rem;
+                    .dropdown-item {
+                        color: white;
+                        font-size: 15px;
+                        display: flex;
+                        padding: 1.25rem;
+                        border-bottom: 1px solid $darkGreen;
+                        margin-left: 0;
+                        &.second-level::after {
+                            background: url("/assets/images/menu-arrow.svg");
+                            content: " ";
+                            position: absolute;
+                            right: 35px;
+                            top: calc(50% - 5px);
+                            width: 5px;
+                            height: 9px;
+                        }
+                        &:hover {
+                            background: transparent;
+                        }
+                        .menu-icon {
+                            margin-right: 2rem;
+                            svg {
+                                width: 29px;
+                                height: 24px;
+                            }
+                        }
+                    }
+                    .submenu {
+                        display: none;
+                        position: absolute;
+                        left: 100%;
+                        top: -7px;
+                        li {
+                            width: 12rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mburger {
+    width: 80px;
+    height: 80px;
+    --mb-bar-height: 2px;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>rus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60" rx="30"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-light-v2" transform="translate(-1354.000000, -10.000000)">
+            <g id="Header">
+                <g id="Langs" transform="translate(1264.000000, 10.000000)">
+                    <g id="rus" transform="translate(90.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle-Copy-2" fill-rule="nonzero"></g>
+                        <rect id="Rectangle-Copy-2" fill="#0800FF" fill-rule="nonzero" mask="url(#mask-2)" x="0" y="21" width="60" height="18"></rect>
+                        <rect id="Rectangle-Copy-4" fill="#FF0000" fill-rule="nonzero" mask="url(#mask-2)" x="0" y="39" width="60" height="21"></rect>
+                        <rect id="Rectangle-Copy-3" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="0" y="0" width="60" height="21"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

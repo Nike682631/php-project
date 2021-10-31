@@ -1,0 +1,75 @@
+.list-unstyled li {
+    font-weight: bold;
+    color: red;
+    padding: 10px;
+    background-color: #FFB5B0;
+    border-radius: 2px;
+}
+
+@media (max-width: 475px) {
+    .company-thumb img {
+        width: 150px !important;
+    }
+}
+
+.edit-profile-checkbox {
+    margin-top: 6px;
+}
+
+.edit-profile-a {
+    width: 90% !important;
+    float: right !important;
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    font-size: 14px !important;
+}
+
+.btn-edit {
+    margin-left: 15px;
+}
+
+.cover-form {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logo-form {
+    position: absolute;
+    top: -80px;
+    left: -30px;
+}
+
+@media (min-width: 992px) {
+    .logo-form {
+        top: -130px;
+    }
+}
+
+@media (min-width: 768px) {
+    .company .company-header .cover img {
+        max-width: 100%;
+        height: 270px;
+    }
+}
+
+.nav-tabs {
+    margin-bottom: 25px;
+}
+
+.nav-tabs a {
+    margin: 5px;
+}
+
+.categories ul ul.submenu li input {
+    margin-left: 20px;
+}
+
+.categories ul ul.submenu li ul.submenu li input {
+    margin-left: 40px;
+}
+
+.credit-card-logo {
+    width: 150px;
+}
